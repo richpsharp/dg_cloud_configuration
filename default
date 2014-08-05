@@ -11,19 +11,14 @@ KERNEL     images/centos/6/x86_64/isolinux/vmlinuz
 APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
 
 MENU	   seperator
-LABEL	   CentOS 6 Automated Install Initial
+LABEL	   CentOS 6 Automated Install Datanode
 KERNEL     images/centos/6/x86_64/isolinux/vmlinuz
-APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/centos/6/x86_64/ks.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
+APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/centos/6/x86_64/datanode.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
 
 MENU	   seperator
-LABEL	   CentOS 6 Automated Install Doug
+LABEL	   CentOS 6 Automated Install Namenode
 KERNEL     images/centos/6/x86_64/isolinux/vmlinuz
-APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/centos/6/x86_64/doug-ks.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
-
-MENU	   seperator
-LABEL	   CentOS 6 Automated Install Martin
-KERNEL     images/centos/6/x86_64/isolinux/vmlinuz
-APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/centos/6/x86_64/martin-ks.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
+APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/centos/6/x86_64/namenode.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
 
 MENU	   seperator
 LABEL	   BIOS Update
