@@ -18,7 +18,7 @@ APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192
 MENU	   seperator
 LABEL	   CentOS 6 Automated Install Namenode
 KERNEL     images/centos/6/x86_64/isolinux/vmlinuz
-APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/namenode/namenode.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount
+APPEND     initrd=images/centos/6/x86_64/isolinux/initrd.img linux ks=http://192.168.1.1/namenode/namenode.cfg method=http://192.168.1.1/centos/6/x86_64/ devfs=nomount ksdevice=eth2
 
 MENU	   seperator
 LABEL	   BIOS Update
