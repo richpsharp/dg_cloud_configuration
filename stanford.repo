@@ -1,0 +1,16 @@
+# Name: Stanford RPMs for EL
+# URL: http://yum.stanford.edu/
+
+[stanford]
+name = Stanford RPMs for EL6Server $basearch
+baseurl = http://yum.stanford.edu/mrepo/stanford-EL5-$basearch/RPMS.updates
+enabled = 1
+gpgkey = http://yum.stanford.edu/STANFORD-GPG-KEY
+gpgcheck = 1
+
+[stanford-noarch]
+name = Stanford RPMs for EL6Server noarch
+baseurl = http://yum.stanford.edu/mrepo/stanford-EL5-noarch/RPMS.updates
+enabled = 1
+gpgkey = http://yum.stanford.edu/STANFORD-GPG-KEY
+gpgcheck = 1
