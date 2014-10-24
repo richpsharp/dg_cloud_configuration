@@ -1,5 +1,5 @@
 {
-"count" : "13",
+"count" : "14",
 "00:1F:BC:08:3B:B3" : "ncp-egA",
 "00:1F:BC:08:6A:39" : "ncp-egB",
 "D4:BE:D9:1D:2B:26" : "unknownhost",
@@ -16,5 +16,6 @@
 "00:1F:BC:08:6F:F6" : "ncp-eg6",
 "00:1F:BC:08:6F:F8" : "ncp-eg13",
 "00:14:D1:1A:72:8D" : "ncp-eg1",
-"00:1F:BC:08:2E:39" : "ncp-eg2"
+"00:1F:BC:08:2E:39" : "ncp-eg2",
+"00:1F:BC:08:30:96" : "ncp-eg14"
 }
